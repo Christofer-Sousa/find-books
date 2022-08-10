@@ -21,8 +21,6 @@ const SearchPage = () => {
         axios.get("https://www.googleapis.com/books/v1/volumes?q="+book.toLowerCase() +"&maxResults=25&key=AIzaSyCwzvQMO-gD8Qa5ORG7g4M7VrIH8D6M69o").then((res)=>{
 
             setItems(res.data.items)
-
-            console.log(res.data.items)
         })
 
 
