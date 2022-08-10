@@ -1,0 +1,163 @@
+$primary-color: #7F51D6
+
+section
+    width: 100%
+    display: flex
+    justify-content: center
+
+.main-section
+    background-color: $primary-color
+    color: #fff
+    margin-bottom: 60px
+    width: 100%
+    height: 80%
+
+.main-container 
+    width: 95%
+    height: 100%
+    background-color: $primary-color
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-direction: column
+    
+
+.main-texts
+    width: 100%
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: center
+
+    h1
+        font-size: 45px
+        font-family: "Montserrat", sans-serif
+        font-weight: 900
+        color: white
+        line-height: 50px
+        text-align: center
+        margin-bottom: 40px
+        margin-top: 60px
+        
+    
+    p
+        font-size: 18px
+        font-family: "Montserrat", sans-serif
+        font-weight: 200
+        color: white
+        margin-bottom: 40px
+        width: 90%
+        text-align: center
+
+    a
+        width: 250px
+        height: 50px
+        font-size: 18px
+        text-align: center
+        color: $primary-color
+        font-family: "Montserrat", sans-serif
+        font-weight: 600
+        cursor: pointer
+        background-color: #fff
+        border-radius: 3px
+        border: none
+        padding: 13px
+        text-decoration: none
+
+.main-image
+
+    display: flex
+    align-items: center
+    justify-content: center
+    align-self: center
+    margin-top: 30px
+
+    img
+        width: 250px
+       
+
+.info-section
+    background-color: white
+    
+    width: 100%
+    height: 100%
+    flex-direction: row
+
+.info-container
+    width: 95%
+    height: 80vh
+    background-color: white
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    img
+        width: 170px
+
+.card1, .card2
+    background-color: $primary-color
+    padding: 10px
+    font-size: 20px
+    font-weight: bold
+    font-family: "Montserrat", sans-serif
+    color: white
+    display: flex
+    align-items: center
+
+.card1
+    width: 170px
+    height: 200px
+
+.card2
+    width: 310px
+    height: 195px
+    align-self: flex-end
+    font-weight: 400
+    text-align: center
+
+.info-cardsimg
+    display: flex
+    justify-content: space-around
+    align-items: center
+    height: 300px
+
+
+@media only screen and (min-width: 920px)
+    .main-container
+        width: 70%
+        flex-direction: row
+        height: 80vh
+    
+    .main-texts
+        width: 50%
+        text-align: start
+        justify-content: flex-start
+        align-items: flex-start
+
+        h1
+            text-align: start
+        p
+            text-align: start
+
+
+    .main-image img
+        width: 400px
+
+    .info-container
+        margin-bottom: 100px
+    .card1
+        width: 370px
+        height: 400px
+        font-size: 40px
+    
+    .card2
+        width: 400px
+        height: 270px
+        font-size: 30px
+        border: 5px solid #fff 
+    
+    .info-cardsimg img
+        width: 380px
+
+    .info-cardsimg
+        margin-top: 100px

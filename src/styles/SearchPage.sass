@@ -1,0 +1,137 @@
+$primary-color: #7F51D6
+
+.search-page
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    background-color: #fff
+
+section
+    width: 95%
+    background-color: #fff
+
+
+.form-section
+    margin-bottom: 60px
+
+.form-container
+    text-align: center
+    
+    form
+        display: flex
+        align-items: center
+        justify-content: center
+
+
+    h1
+        font-size: 45px
+        font-family: "Montserrat", sans-serif
+        font-weight: 900
+        color: $primary-color
+        line-height: 50px
+        text-align: center
+        margin-bottom: 100px
+        margin-top: 60px
+
+    form
+        input
+            width: 250px
+            height: 50px
+            font-size: 15px
+            text-align: center
+            color: #c2c2c2
+            font-family: "Montserrat", sans-serif
+            font-weight: 600
+            cursor: pointer
+            background-color: $primary-color
+            border-top-left-radius: 3px
+            border-bottom-left-radius: 3px
+            border: none
+            padding: 10px
+            outline: none
+
+        input::placeholder
+            color: #eaeaeaa8
+            
+
+.books-section 
+    width: 100%
+    height: 100%
+    padding-bottom: 30px
+
+
+.books-container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    
+
+.card-book
+    width: 320px
+    height: 340px
+    background-color: $primary-color
+    margin-bottom: 20px
+    display: flex
+    align-items: center
+    justify-content: center
+    color: #fff
+
+.cover img
+    width: 150px
+    height: 220px
+    margin: 0 10px
+    border-radius: 3px
+    border: 5px solid #fff 
+
+.info-book
+    font-size: 16px
+
+    p
+        margin-bottom: 15px
+
+    span
+        font-weight: bold
+        font-size: 14px
+    a
+        width: 200px
+        height: 35px
+        font-size: 15px
+        text-align: center
+        color: $primary-color
+        font-family: "Montserrat", sans-serif
+        font-weight: 600
+        cursor: pointer
+        background-color: #fff
+        border-radius: 3px
+        border: none
+        padding: 5px 15px
+        text-decoration: none
+
+.btn-search
+    width: 90px
+    height: 50px
+    font-size: 18px
+    text-align: center
+    color: $primary-color
+    font-family: "Montserrat", sans-serif
+    font-weight: 600
+    cursor: pointer
+    background-color: #fff
+    border-top-right-radius: 3px
+    border-bottom-right-radius: 3px
+    border: none
+    border: 1px solid $primary-color
+    padding: 13px
+    text-decoration: none
+
+
+@media only screen and (min-width: 390px)
+    .books-container
+        width: 85%
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 30px    
+  
