@@ -5,5 +5,5 @@ Site: [Find Books Now](https://find-booksnow.herokuapp.com/)
 
 ### `Imagens:`
 
-... [capa](https://github.com/Christofer-Sousa/find-books/blob/main/src/images/capa.png?raw=true)
+...
 
